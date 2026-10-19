@@ -44,11 +44,11 @@ def keep_alive():
 # --- End Flask Keep Alive ---
 
 # --- Configuration ---
-TOKEN = '8968580888:AAFfZQnMh7xwSIPpcx_94j-fOHZNXraVics' 
+TOKEN = '7575426595:AAERSagZLuB0-x1iPg1YCsnbQfPnZG6EPqE' 
 OWNER_ID = 8845575952
 ADMIN_ID = 8845575952
 YOUR_USERNAME = '@hawabaazhun' 
-UPDATE_CHANNEL = '@kengsadda'
+UPDATE_CHANNEL = '@'
 
 # Folder setup - using absolute paths
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -1290,7 +1290,7 @@ def _logic_send_welcome(message):
         else: user_status = "🆓 Free User (Expired Sub)"; remove_subscription_db(user_id)
     else: user_status = "🆓 Free User"
 
-    welcome_msg_text = (f"〽️ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗥𝗘𝗕𝗘𝗟 𝗛𝗢𝗦𝗧𝗜𝗡𝗚 𝗕𝗢𝗧 🎀, {user_name}!\n\n🆔 Your User ID: `{user_id}`\n"
+    welcome_msg_text = (f"〽️ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗩𝗜𝗩𝗨 𝗛𝗢𝗦𝗧𝗜𝗡𝗚 𝗕𝗢𝗧 🎀, {user_name}!\n\n🆔 Your User ID: `{user_id}`\n"
                         f"✳️ Username: `@{user_username or 'Not set'}`\n"
                         f"🔰 Your Status: {user_status}{expiry_info}\n"
                         f"📁 Files Uploaded: {current_files} / {limit_str}\n\n"
