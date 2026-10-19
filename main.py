@@ -45,10 +45,10 @@ def keep_alive():
 
 # --- Configuration ---
 TOKEN = '7575426595:AAERSagZLuB0-x1iPg1YCsnbQfPnZG6EPqE' 
-OWNER_ID = 8845575952
-ADMIN_ID = 8845575952
+OWNER_ID = 6133172474
+ADMIN_ID = 6133172474
 YOUR_USERNAME = '@hawabaazhun' 
-UPDATE_CHANNEL = '@'
+UPDATE_CHANNEL = '@vivukachannel'
 
 # Folder setup - using absolute paths
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
